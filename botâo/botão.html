@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>Mensagem secreta</h1>
+        <!--Botão clicavél-->
+        <button onclick="show()">Mostrar segredo</button>
+        <!--Id do botão-->
+        <p id="secret">*****************************</p>
+        <!--script sempre no final do body-->
+        <script>
+            // função do botão
+            function show(){
+                // id="secret" linkado na função de alterar o parágrafo ************** para não estou te contando
+                document.getElementById("secret").innerHTML = "não estou te contando";
+            }
+        </script>
+    </body>
+</html>
